@@ -1,0 +1,26 @@
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\bin\Debug\net5.0\log4net.config
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.deps.json
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\bin\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\CLONE-PRO\BGU\מבוא להנדסת תוכנה\milestone1\milestone1-gml1\Backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\bin\Debug\net5.0\log4net.config
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.deps.json
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\bin\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\Backend.csprojAssemblyReference.cache
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\CLONE-PRO\BGU\סמסטר ב\מבוא להנדסת תוכנה\project\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.pdb

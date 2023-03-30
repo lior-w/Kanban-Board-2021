@@ -1,0 +1,41 @@
+﻿<Window x:Class="Frontend.View.HomePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frontend.View"
+        mc:Ignorable="d"
+        Title="HomePage" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Button Content="logout" HorizontalAlignment="right" Margin="0,0,0,0" FontSize="14" Height="25" Width="64" Click="logout_Button_Click"/>
+            <Label Content="Home Page" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Button Content="My Boards" HorizontalAlignment="Left" Click="MyBoards_Button_Click" Margin="150,20,0,20" FontSize="20" Width="500" Grid.Row="0" Grid.ColumnSpan="2"/>
+                <Button Content="My Inprogress List" HorizontalAlignment="Left" Click="InprogressList_Button_Click" Margin="150,20,0,20" FontSize="20" Width="500" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Button Content="Create New Board" HorizontalAlignment="Left" Click="CreatBoard_Button_Click" Margin="150,12,0,28" FontSize="20" Width="212" Grid.Row="2"/>
+                <TextBox Text="{Binding Path=NewBoardName, Mode=OneWayToSource}" HorizontalAlignment="Left" Margin="438,18,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="20" Width="212" Grid.Row="2" Grid.ColumnSpan="2"/>
+                <Label Content="{Binding Path = CreationErrorLable, Mode=OneWay}" Foreground="{Binding Path= CreationErrorLableColor, Mode=OneWay}" HorizontalAlignment="Center" Grid.Row="2" Margin="0,52,0,0" VerticalAlignment="Top" Height="28" Width="190"/>
+                <Button Content="Join Board" HorizontalAlignment="Left" Click="JoinBoards_Button_Click" Margin="150,20,0,20" FontSize="20" Width="212" Grid.Row="3"/>
+                <ComboBox ItemsSource="{Binding Path= User.UnMemberBoards, Mode=TwoWay}" HorizontalAlignment="Left" Margin="438,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="212" SelectedItem="{Binding Path=SelectedBoard, Mode=OneWayToSource}" Height="52" IsDropDownOpen="False" IsReadOnly="True">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock  Text="{Binding Path= Name, Mode=OneWay}" />
+                                <TextBlock Text="{Binding Path= Creator_email, Mode=OneWay}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Label Content="{Binding Path = JoiningErrorLable, Mode=OneWay}" Foreground="{Binding Path= JoiningErrorLableColor, Mode=OneWay}" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Top" Height="35" Width="190" Margin="0,75,0,0" Grid.RowSpan="2"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

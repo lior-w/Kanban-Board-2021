@@ -1,0 +1,50 @@
+﻿<Window x:Class="Frontend.View.MyInprogressList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frontend.View"
+        mc:Ignorable="d"
+        Title="MyInprogressList" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="BACK" FontSize="14" Height="25" Width="58" Click="Back_Button_Click"/>
+                <Button Content="logout" FontSize="14" Height="25" Width="64" Margin="680,0,0,0" Click="logout_Button_Click"/>
+            </StackPanel>
+            <Label Content="My Inprogress Tasks:" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <ScrollViewer>
+                <ListBox ItemsSource="{Binding Path=Tasks}" SelectedItem="{Binding Path=SelectedTask, Mode=TwoWay}" Height="339" Width="750">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border>
+                                <StackPanel Orientation="Vertical" Margin="10" >
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="ID:" Margin="0,0,20,0"/>
+                                        <TextBox Text="{Binding Path=Id, Mode=OneTime}" BorderBrush="{x:Null}" IsReadOnly="True"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="Title:" Margin="0,0,20,0"/>
+                                        <TextBox Text="{Binding Path=Title, Mode=OneTime}" BorderBrush="{x:Null}" IsReadOnly="True"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="Description:" Margin="0,0,20,0"/>
+                                        <TextBox Text="{Binding Path=Description, Mode=OneTime}" BorderBrush="{x:Null}" IsReadOnly="True" />
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="Creation time:" Margin="0,0,20,0"/>
+                                        <TextBox Text="{Binding Path=CreationTime, Mode=OneTime}" BorderBrush="{x:Null}" IsReadOnly="True"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="Duedate:" Margin="0,0,20,0"/>
+                                        <TextBox Text="{Binding Path=DueDate, Mode=OneTime}" BorderBrush="{x:Null}" IsReadOnly="True"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>

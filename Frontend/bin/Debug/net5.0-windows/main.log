@@ -1,0 +1,118 @@
+2022-05-29 16:47:49,556 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2022-05-29 16:47:49,703 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.DalController - loaded data from table: users
+2022-05-29 16:48:08,885 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2022-05-29 16:48:08,886 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate password succesfuly, valid password
+2022-05-29 16:48:08,886 [1] INFO IntroSE.Kanban.Backend.business.UserController - UserController: User created succesfully
+2022-05-29 16:48:08,927 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - inserted an entry at table users
+2022-05-29 16:48:08,927 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - wasnt able to insert an entries at users
+2022-05-29 16:50:22,747 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2022-05-29 16:50:23,069 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.DalController - loaded data from table: users
+2022-05-29 16:50:35,753 [1] ERROR IntroSE.Kanban.Backend.business.UserController - User attempted Login, not existing user
+2022-05-29 16:50:37,489 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2022-05-29 16:50:37,490 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate password succesfuly, valid password
+2022-05-29 16:50:37,490 [1] INFO IntroSE.Kanban.Backend.business.UserController - UserController: User created succesfully
+2022-05-29 16:50:37,522 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - inserted an entry at table users
+2022-05-29 16:50:37,523 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - wasnt able to insert an entries at users
+2022-05-29 16:50:38,569 [1] DEBUG IntroSE.Kanban.Backend.business.User - Correct password
+2022-05-29 16:50:38,569 [1] DEBUG IntroSE.Kanban.Backend.business.UserController - User Logeed in succesfully
+2022-05-29 16:50:45,027 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-05-29 16:50:45,029 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-05-29 16:50:45,029 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-05-29 16:50:45,029 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-05-29 16:50:45,062 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-05-29 16:50:45,063 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-05-29 16:50:49,621 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-05-29 16:50:49,621 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-05-29 16:50:49,622 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-05-29 16:50:49,622 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-05-29 16:50:49,649 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-05-29 16:50:49,649 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:01:51,633 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2022-09-14 14:01:52,305 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.DalController - loaded data from table: users
+2022-09-14 14:02:03,636 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2022-09-14 14:02:03,637 [1] WARN IntroSE.Kanban.Backend.business.User - invalid password
+2022-09-14 14:02:09,628 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2022-09-14 14:02:09,629 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate password succesfuly, valid password
+2022-09-14 14:02:09,629 [1] INFO IntroSE.Kanban.Backend.business.UserController - UserController: User created succesfully
+2022-09-14 14:02:09,689 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - inserted an entry at table users
+2022-09-14 14:02:09,690 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - wasnt able to insert an entries at users
+2022-09-14 14:02:17,309 [1] DEBUG IntroSE.Kanban.Backend.business.User - Correct password
+2022-09-14 14:02:17,309 [1] DEBUG IntroSE.Kanban.Backend.business.UserController - User Logeed in succesfully
+2022-09-14 14:02:20,905 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:02:20,907 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:20,907 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:20,907 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:20,950 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:02:20,950 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:02:27,556 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:02:27,556 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:27,556 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:27,556 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:27,598 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:02:27,598 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:02:38,802 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:02:38,803 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:38,803 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:38,803 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:38,851 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:02:38,851 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:02:42,393 [1] DEBUG IntroSE.Kanban.Backend.business.User - Logout succesfully
+2022-09-14 14:02:42,418 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2022-09-14 14:02:42,458 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.DalController - loaded data from table: users
+2022-09-14 14:02:53,793 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2022-09-14 14:02:53,793 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate password succesfuly, valid password
+2022-09-14 14:02:53,793 [1] INFO IntroSE.Kanban.Backend.business.UserController - UserController: User created succesfully
+2022-09-14 14:02:53,845 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - inserted an entry at table users
+2022-09-14 14:02:53,845 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - wasnt able to insert an entries at users
+2022-09-14 14:02:55,619 [1] DEBUG IntroSE.Kanban.Backend.business.User - Correct password
+2022-09-14 14:02:55,619 [1] DEBUG IntroSE.Kanban.Backend.business.UserController - User Logeed in succesfully
+2022-09-14 14:02:59,897 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:02:59,897 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:59,897 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:59,897 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:02:59,963 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:02:59,963 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:03:08,513 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:03:08,513 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:08,513 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:08,513 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:08,562 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:03:08,562 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:03:11,540 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:03:11,540 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:11,540 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:11,540 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:11,588 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:03:11,588 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:03:11,973 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:03:11,973 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:11,973 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:11,973 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,018 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:03:12,018 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:03:12,149 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:03:12,149 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,149 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,149 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,191 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:03:12,192 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:03:12,278 [1] INFO IntroSE.Kanban.Backend.business.Board - new board created!
+2022-09-14 14:03:12,278 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,279 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,279 [1] DEBUG IntroSE.Kanban.Backend.business.Board - column added
+2022-09-14 14:03:12,302 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - inserted an entry to the DB in table IntroSE.Kanban.Backend.DataAccessLayer.Dboard
+2022-09-14 14:03:12,302 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.BoardDalController - wasnt able to insert an entries at boards
+2022-09-14 14:03:17,693 [1] DEBUG IntroSE.Kanban.Backend.business.User - Logout succesfully
+2022-09-14 14:03:17,712 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2022-09-14 14:03:17,742 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.DalController - loaded data from table: users
+2023-03-30 17:53:32,673 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2023-03-30 17:53:33,505 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.DalController - loaded data from table: users
+2023-03-30 17:53:50,392 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2023-03-30 17:53:50,394 [1] WARN IntroSE.Kanban.Backend.business.User - invalid password
+2023-03-30 17:53:58,621 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate email succesfully, valid email
+2023-03-30 17:53:58,621 [1] DEBUG IntroSE.Kanban.Backend.business.User - validate password succesfuly, valid password
+2023-03-30 17:53:58,621 [1] INFO IntroSE.Kanban.Backend.business.UserController - UserController: User created succesfully
+2023-03-30 17:53:58,663 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - inserted an entry at table users
+2023-03-30 17:53:58,663 [1] ERROR IntroSE.Kanban.Backend.DataAccessLayer.UserDalController - wasnt able to insert an entries at users
+2023-03-30 17:54:01,320 [1] DEBUG IntroSE.Kanban.Backend.business.User - Correct password
+2023-03-30 17:54:01,320 [1] DEBUG IntroSE.Kanban.Backend.business.UserController - User Logeed in succesfully
